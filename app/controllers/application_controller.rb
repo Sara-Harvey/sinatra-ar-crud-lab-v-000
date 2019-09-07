@@ -18,5 +18,3 @@ class ApplicationController < Sinatra::Base
   post '/articles' do 
     erb :show 
   end
-
-end
